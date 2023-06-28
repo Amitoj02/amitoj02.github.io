@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('assets/font_montserrat.ttf');
+}
+
+body {
+    font-family: 'Montserrat Thin';
+}
+
+.header-gradient{
+	background: linear-gradient(180deg, #FF5050, #67ADFF);
+    color: white;
+    padding: 14% 5% 14% 5%;
+}
+
+.primary-button {
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 10px 24px 10px 24px;
+    color: #FF5050;
+    font-weight:550;
+    font-size: 15px;
+}
+
+.primary-button:hover{
+    border-color: #FFFFFF;
+}
