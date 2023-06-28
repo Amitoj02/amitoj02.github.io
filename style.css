@@ -13,6 +13,20 @@ body {
     padding: 14% 5% 14% 5%;
 }
 
+.navbar-brand {
+    background: linear-gradient(270deg, #FF5050, #67ADFF);
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+     background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.nav-item {
+    color: #545454;
+    font-weight: 600;
+}
+
 .primary-button {
     background: #FFFFFF;
     border-radius: 32px;
