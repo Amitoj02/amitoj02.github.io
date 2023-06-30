@@ -74,12 +74,105 @@ hr {
     border-color: #FFFFFF;
 }
 
+.secondary-button {
+    background: #3A8DCA;
+    border-radius: 32px;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    font-weight:550;
+    font-size: 15px;
+}
+
+.secondary-button:hover{
+    border-color: #3A8DCA;
+    background: #FFFFFF;
+    color: #3A8DCA;
+}
+
 .progress-bar, .progress{
     border-radius: 25px;
+}
+
+.project {
+    margin: 16px;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pr-title {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0%;
+    color: #303030;
+}
+
+.pr-position {
+    font-weight:550;
+    color: #303030;
+    margin: 0%;
+}
+
+.pr-content {
+    font-size: 14px;
 }
 
 .sec-title {
     font-size:22px;
     font-weight: 700;
 }
+
+.chip {
+    font-size: small;
+    border-radius: 25px;
+    margin: 12px 0px 0px 12px;
+    padding: 6px 20px 6px 20px;
+    font-weight: 600;
+}
+
+.chip.java {
+    background: var(--bs-java-secondary);
+    color: var(--bs-java);
+}
+
+.chip.php {
+    background: var(--bs-php-secondary);
+    color: var(--bs-php);
+}
+
+.chip.kotlin {
+    background: var(--bs-csharp-secondary);
+    color: var(--bs-csharp);
+}
+
+.chip.jquery {
+    background: var(--bs-javascript-secondary);
+    color: var(--bs-javascript);
+}
+
+.chip.javascript {
+    background: var(--bs-javascript-secondary);
+    color: var(--bs-javascript);
+}
+
+.chip.bootstrap {
+    background: var(--bs-csharp-secondary);
+    color: var(--bs-csharp);
+}
+
+.chip.html {
+    background: var(--bs-html-secondary);
+    color: var(--bs-html);
+}
+
+.chip.nodejs {
+    background: var(--bs-nodejs-secondary);
+    color: var(--bs-nodejs);
+}
+
+.chip.xml {
+    background: var(--bs-nodejs-secondary);
+    color: var(--bs-nodejs);
+}
+
 
