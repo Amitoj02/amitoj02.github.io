@@ -1,3 +1,27 @@
+/* Variables */
+:root {
+    --gradient-start: #FF5050;
+    --gradient-end: #67ADFF;
+
+    --bs-primary: #FF5050;
+
+    --bs-php: #697AB1;
+    --bs-php-secondary: #E9EEFF;
+    --bs-java: #F0931C;
+    --bs-java-secondary: #FFF3E4;
+    --bs-nodejs: #5D9E51;
+    --bs-nodejs-secondary: #EAFFE7;
+    --bs-html: #FF5050;
+    --bs-html-secondary: #FFECEC;
+    --bs-javascript: #F1BA28;
+    --bs-javascript-secondary: #FFF8E5;
+    --bs-csharp: #942C86;
+    --bs-csharp-secondary: #FFE5FC;
+    
+    --bs-txt-color: #545454;
+}
+
+
 @font-face {
     font-family: 'Montserrat Thin';
     src: url('assets/font_montserrat.ttf');
@@ -5,16 +29,27 @@
 
 body {
     font-family: 'Montserrat Thin';
+    color: var(--bs-txt-color);
 }
 
+hr {
+    background-color: #595959;
+    border-radius: 25px;
+    opacity: 0.5;
+    height: 2px;    
+}
+
+
+/* CLASSES */
+
 .header-gradient{
-	background: linear-gradient(180deg, #FF5050, #67ADFF);
+	background: linear-gradient(180deg, var(--gradient-start), var(--gradient-end));
     color: white;
     padding: 14% 5% 14% 5%;
 }
 
 .navbar-brand {
-    background: linear-gradient(270deg, #FF5050, #67ADFF);
+    background: linear-gradient(270deg, var(--gradient-start), var(--gradient-end));
     font-size: 24px;
     font-weight: 700;
     -webkit-text-fill-color: transparent;
@@ -23,7 +58,6 @@ body {
 }
 
 .nav-item {
-    color: #545454;
     font-weight: 600;
 }
 
@@ -31,7 +65,7 @@ body {
     background: #FFFFFF;
     border-radius: 32px;
     padding: 10px 24px 10px 24px;
-    color: #FF5050;
+    color: var(--bs-primary);
     font-weight:550;
     font-size: 15px;
 }
@@ -39,3 +73,13 @@ body {
 .primary-button:hover{
     border-color: #FFFFFF;
 }
+
+.progress-bar, .progress{
+    border-radius: 25px;
+}
+
+.sec-title {
+    font-size:22px;
+    font-weight: 700;
+}
+
