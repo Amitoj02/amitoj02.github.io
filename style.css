@@ -21,6 +21,28 @@
     --bs-txt-color: #545454;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .p-5, .p-4 {
+        padding: 3rem 1rem 3rem 1rem !important;
+    }
+
+    .py-5{
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+
+    .px-5 {
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+
+}
 
 @font-face {
     font-family: 'Montserrat Thin';
@@ -58,8 +80,12 @@ hr {
     -webkit-background-clip: text;
 }
 
-.nav-item {
+.nav-link {
     font-weight: 600;
+}
+
+.active {
+    font-weight: 800;
 }
 
 .primary-button {
