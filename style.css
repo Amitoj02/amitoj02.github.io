@@ -81,11 +81,11 @@ hr {
 }
 
 .nav-link {
-    font-weight: 600;
+    font-weight: 600!important;
 }
 
 .active {
-    font-weight: 800;
+    font-weight: 800!important;
 }
 
 .primary-button {
