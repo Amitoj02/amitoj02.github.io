@@ -4,10 +4,3 @@ $(document).ready(function () {
     });
 });
 
-var elem = document.querySelector('.projects');
-var msnry = new Masonry( elem, {
-  // options
-  itemSelector: '.project-container',
-//   columnWidth: 100
-percentPosition: true
-});
